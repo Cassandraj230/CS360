@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: lavender;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: silver;
+            }
+            li{
+                float:left;
+            }
+            li a{
+                display: block;
+                color: black;
+                text-align: center;
+                padding:14px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active){
+                background-color: beige;
+            }
+            .active {
+                background-color: white;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            form {
+                border: 3px solid #f1f1f1;
+            }
+
+            input[type=text], input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 6px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+            button {
+                background-color: lightblue;
+                color: white;
+                padding: 10px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+            button:hover {
+                opacity: 0.8;
+            }
+
+            .container {
+                padding: 16px;
+            }
+
+            span.psw {
+                float: right;
+                padding-top: 10px;
+            }
+h3 {text-align: center;}
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="Home.html">Home</a></li><!-- comment -->
+            <li><a href="About.html">About</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li style="float:right"><a class="active" href="SignIn.html">Sign In</a></li>
+            <li style="float:right"><a href="SignUp.html">Sign Up</a></li>
+
+        </ul>
+        <h3>Login</h3>
+    </div>
+
+    <div class="container">
+        <label for="uname">Username</label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw">Password</label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+
+    </label>
+</div>
+     <hr><!-- comment -->
+        <footer>
+            <li><a href="Terms.html">Terms and Conditions</a></li><!-- comment -->
+            <li><a href="Privacy.html">Privacy Policy</a></li>
+            <li><a href="Cookies.html">Cookies Policy</a></li>
+         
+        </footer>
+</body>
+</html>
